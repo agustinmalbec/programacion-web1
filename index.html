@@ -6,28 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrenamientos Online</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu&family=Unbounded&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-            <img class="header-icon" src="./assets/img/icon.png" alt="Logo de gimnasio">
-            <h1 class="header-title"><a href="./index.html">Entrenamientos online</a></h1>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <l1 ><a class="header-list-item" href="./pages/articulo.html">Clases</a></l1>
-                <l1 ><a class="header-list-item" href="./pages/formulario.html">Contacto</a></l1>
+        <img class="headerIcon" src="./assets/img/icon.png" alt="Logo de gimnasio">
+        <h1 class="headerTitle"><a href="./index.html">Entrenamientos online</a></h1>
+        <nav class="headerNav">
+            <ul class="headerList">
+                <l1><a class="headerListItem" href="./pages/articulo.html">Clases</a></l1>
+                <l1><a class="headerListItem" href="./pages/formulario.html">Contacto</a></l1>
             </ul>
         </nav>
     </header>
-    <main class="main-index">
-        <div class="main-div">
-            <h2 class="main-title">Vení a entrenar con nosotros</h2>
+
+    <main class="mainIndex">
+
+        <div class="mainDiv">
+            <h2 class="mainTitle">Vení a entrenar con nosotros</h2>
+        </div>
+
+        <div class="carrousel">
+            <div class="contain">
+                <img src="./assets/img/img1.jpg" alt="" class="img">
+                <img src="./assets/img/img2.jpg" alt="" class="img">
+                <img src="./assets/img/img3.jpg" alt="" class="img">
+            </div>
+            <ul class="carNav">
+                <li class="itemNav active"></li>
+                <li class="itemNav"></li>
+                <li class="itemNav"></li>
+            </ul>
         </div>
     </main>
-    <footer>
 
+    <footer class="footer">
+        <p>Proyecto final - Programacion web</p>
     </footer>
+
+    <script src="./scripts/carrousel.js"></script>
 </body>
 
 </html>
