@@ -76,7 +76,7 @@ a:active {
 /* Index */
 
 .mainIndex {
-    background-image: url("background.jpg");
+    background-image: url("../assets/img/background.jpg");
     opacity: .8;
 }
 
